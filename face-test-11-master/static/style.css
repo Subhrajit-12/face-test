@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  padding: 35px 60px;
+  background-color: #fcfcfa;
+  height: 100vh;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  background-color: #060505;
+  color: #fcfcfa;
+  width: 50px;
+  height: 50px;
+  padding: 5px;
+  border-radius: 50%;
+  display:flex;
+  justify-content: center;
+  position: relative;
+  align-items: center;
+  font-size: 1.4rem;
+  padding-bottom: 9px;
+}
+
+.logo:after {
+  content: "";
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  border: 1px solid #060505;
+  position: absolute;
+  top: 0;
+  right:-25px;
+  top: 50%;
+  transform: translatey(-50%);
+  z-index: -1;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  width: fit-content;
+}
+
+li {
+  margin-right: 30px;
+}
+
+.main-btn {
+  background-color: #060505;
+  color: #fcfcfa;
+  font-size: 1rem;
+  padding: 15px 25px;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 75px;
+}
+
+.right {
+  position: relative;
+  margin-right: 45px;
+}
+
+.img {
+  width: 350px;
+  height: 400px;
+  background-image: url(https://images.unsplash.com/photo-1548248823-ce16a73b6d49?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0NTY0ODk4Nw&ixlib=rb-1.2.1&q=85);
+  background-size: cover;
+  border-radius:  5%;
+  border-top-right-radius: 45%;
+  border: 1px solid #060505; 
+}
+
+.border1 {
+  width: 350px;
+  height: 420px;
+  border-radius:  5%;
+  border-top-right-radius: 45%;
+  border: 1px solid #060505; 
+  position: absolute;
+  top: -12px;
+  left: 10px;
+  z-index: -1;
+}
+
+.border2{
+  width: 350px;
+  height: 400px;
+  border-radius:  5%;
+  border-top-right-radius: 45%;
+  border: 1px solid #060505; 
+  position: absolute;
+  left: 06px;
+  z-index: -1;
+}
+
+.txt-box1 {
+  width: 190px;
+  height: 90px;
+  border: 1px solid #060505;
+  border-radius: 5px;
+  background-color: #fcfcfa;
+  position: absolute;
+  bottom: -40px;
+  right: -40px;
+  padding: 12px;
+}
+
+.txt-box2{
+  width: 190px;
+  height: 90px;
+  border: 1px solid #060505;
+  border-radius: 5px;
+  background-color: #fcfcfa;
+  position: absolute;
+  bottom: -42px;
+  right: -44px;
+  z-index: -1;
+}
+
+.txt-box1 h4 {
+  margin-bottom: 6px;
+  font-weight: 400;
+}
+
+.txt-box1 h6 {
+  font-weight: 300;
+}
+
+.sliders {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.2rem;
+  width: 150px;
+  position: absolute;
+  bottom:-50px;
+  left: 0;
+}
+
+.sliders img {
+  width: 40px;
+}
+
+.left h1 {
+  font-weight: 900;
+  font-size: 3.5rem;
+}
+
+.left em {
+  font-size: 3.5rem;
+  font-weight: 100;
+  letter-spacing: -3px;
+  line-height: 45px;
+}
+
+.left h2{
+  font-size: 3.5rem;
+  font-weight: 600;
+  letter-spacing: -3px;
+}
+
+.left p {
+  margin-top: 40px;
+  font-size: 1.1rem;
+}
+
+.check-btn {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+ 
+}
+
+.check-btn p {
+  font-size: 0.95rem;
+  margin-left: 55px;
+  margin-top: 0;
+}
+
+.left-circle {
+  width: 55px;
+  height: 55px;
+  border: 1px solid #060505;
+  border-radius: 50%;
+}
+
+.right-circle img {
+  width: 55px;
+  height: 55px;
+  transform: rotate(135deg);
+  position: absolute;
+  left: 40px;
+  top: 0;
+}

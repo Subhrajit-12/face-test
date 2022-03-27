@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Face-App</title>
+
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='style.css') }}">
+</head>
+<body>
+    
+    <header>
+        <div class="logo">
+          <span> you </span>
+        </div>  
+        <a class="main-btn"  href="{{ url_for('login') }}">Login</a>
+      </header>
+      
+      <section class="hero">
+        <div class="left">
+          <h1>FACE RECOGNITION</h1>
+          <em>BASED</em>
+          <h2>ATM SYSTEM</h2>
+          
+          <!--<p>We help architects sculpt sound out of space, with bespoke,<br> acoustic solutions.</p>-->
+          <div class="check-btn">
+            <div class="left-circle"></div>
+            <div class="right-circle">
+              <img src="https://cdn-icons-png.flaticon.com/512/1250/1250965.png">
+            </div>
+            <p><a href="{{ url_for('register') }}"">Get Started</a></p>
+          </div>
+        </div>
+        <div class="right">
+          <div class="img" src="C:\Users\Asus\Desktop\FACE_IMAGE.jpg">
+            <div class="border1"></div>
+            <div class="border2"></div>    
+            <div class="txt-box1">
+              <h4>ATM <br> Machine</h4>
+              <h6>Biometric based ATM System</h6>
+            </div> 
+            <div class="txt-box2"></div>
+           
+          </div>
+        </div>
+      </section>
+      
+      
+
+</body>
+</html>
